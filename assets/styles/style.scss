@@ -7,69 +7,7 @@
 .container{
     width: 85%;
 }
-.topbar{
-    color: white;
-    display: flex;
-    justify-content: center;
-    border-bottom: 1px solid #b2b2b2;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    position: relative;
-    z-index: 3;
-    .container{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        .contact{
-            span{
-                margin-right: 20px;
-            }
-        }
-        .medias{
-            width: 30%;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-    }
-}
-.header{
-    margin-top: 30px;
-    position: relative;
-    z-index: 3;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
-    .container{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        color: white;
-        .logo{
-            font-size: 40px;
-            font-weight: 800;
-        }
-        .navbar{
-            width: 70%;
-            ul{
-                width: 100%;
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                li{
-                    font-weight: 600;
-                    font-size: 12px;
-                    list-style-type: none;
-                    a{
-                        text-decoration: none;
-                        color: white;
-                    }
-                }
-            }
-        }
-    }
-}
 .background{
     background-image: url(../images/4.jpg);
     width: 100%;
@@ -77,5 +15,274 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    transform: translateY(-136px);
+    .topbar{
+        color: white;
+        display: flex;
+        justify-content: center;
+        border-bottom: 1px solid #b2b2b2;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        position: relative;
+        z-index: 3;
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .contact{
+                span{
+                    margin-right: 20px;
+                }
+            }
+            .medias{
+                width: 30%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+        }
+    }
+    .header{
+        margin-top: 30px;
+        position: relative;
+        z-index: 3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: white;
+            .logo{
+                font-size: 40px;
+                font-weight: 800;
+            }
+            .navbar{
+                width: 70%;
+                ul{
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    li{
+                        font-weight: 600;
+                        font-size: 12px;
+                        list-style-type: none;
+                        a{
+                            text-decoration: none;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .select-area{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        .container{
+            display: flex;
+           
+            justify-content: space-between;
+            .text{
+                color: white;
+                width: 50%;
+                h1{
+                    font-size: 50px;
+                    font-weight: 800;
+                }
+                p{
+                    font-size: 90px;
+                    font-weight: 800;
+                    line-height: 110px;
+                }
+            }
+            .form{
+                width: 50%;
+                display: flex;
+                justify-content: flex-end;
+                .big-box{
+                    padding: 30px;
+                    box-sizing: border-box;
+                    width: 425px;
+                    height: 372px;
+                    background-color: rebeccapurple;
+                    background-color: rgba(0,0,0,.6);
+                    border: 10px solid rgba(255,255,255,.2);
+                    border-radius: 3px;
+                    .check-in-out{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        .check-in{
+                            width: 100%;
+                            label{
+                                font-size: 13px;
+                                color: #777;
+                            }
+                            input{
+                                border: none;
+                                outline: none;
+                                width: 157px;
+                                height: 40px;
+                                border-radius: 4px;
+                            }
+                            select{
+                                width: 100%;
+                                height: 40px;
+                                border: none;
+                                outline: none;
+                                border-radius: 4px;
+                                color: #b2b2b2;
+                            }
+                        }
+                        .adult{
+                            width: 157px;
+                            input{
+                                padding-left: 10px;
+                                width: 97px;
+                                height: 42px;
+                            }
+                        }
+                        
+                    }
+                    .btn{
+                        display: flex;
+                        justify-content: flex-end;
+                        margin-top: 30px;
+                        button{
+                            width: 170px;
+                            height: 40px;
+                            background-color: blue;
+                            border-radius: 4px;
+                            color: white;
+                            text-align: center;
+                            border: none;
+                            outline: none;
+                        }
+                    }
+                   
+                }
+            }
+        }
+    }
+}
+#welcome{
+    display: flex;
+    justify-content: center;
+    .container{
+        .title{
+            text-align: center;
+            margin-top: 90px;
+            margin-bottom: 50px;
+            font-size: 50px;
+            font-weight: 800;
+            border-bottom: 1px solid #b2b2b2;
+        }
+        .content{
+            text-align: center;
+            margin-top: 40px;
+            padding-bottom: 40px;
+            font-size: 1.25rem;
+            color: #777;
+            font-weight: 400;
+            border-bottom: 1px solid #b2b2b2;
+            margin-bottom: 50px;
+        }
+        .components{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .component{
+                width: 25%;
+                span{
+                    font-size: 19px;
+                    font-weight: 500;
+                }
+                .desc{
+                    font-size: 1rem;
+                    font-weight: 400;
+                    color: #777;
+                    text-align: start;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
+#hotels{
+    display: flex;
+    justify-content: center;
+    .container{
+        .title{
+            text-align: center;
+            margin-top: 90px;
+            margin-bottom: 50px;
+            font-size: 50px;
+            font-weight: 800;
+            border-bottom: 1px solid #b2b2b2;
+        }
+        .content{
+            text-align: center;
+            margin-top: 40px;
+            padding-bottom: 40px;
+            font-size: 1.25rem;
+            color: #777;
+            font-weight: 400;
+            margin-bottom: 50px;
+        }
+        .cards{
+            display: flex;
+            align-items: center;
+            margin-bottom: 50px;
+            justify-content: space-between;
+            .card{
+                width: 23%;
+
+                .img-area{
+                    text-align: center;
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: center;
+                    padding-bottom: 30px;
+                    box-sizing: border-box;
+                    color: white;
+                    font-weight: 800;
+                    width: 100%;
+                    height: 190px;
+                    background-image: url(../images/room1.jpg);
+                    margin-bottom: 20px;
+                }
+                .desc{
+                    font-size: 14px;
+                    color: #777;
+                    border-bottom: 1px solid #b2b2b2;
+                }
+                .price-zone{
+                    margin-top: 15px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .price{
+                        span{
+                            color: #777;
+                        }
+                    }
+                    .btn{
+                        button{
+                            width: 75px;
+                            height: 40px;
+                            background-color: blue;
+                            border-radius: 5px;
+                            outline: none;
+                            border: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

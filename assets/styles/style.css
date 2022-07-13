@@ -8,7 +8,16 @@
   width: 85%;
 }
 
-.topbar {
+.background {
+  background-image: url(../images/4.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.background .topbar {
   color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -23,7 +32,7 @@
   z-index: 3;
 }
 
-.topbar .container {
+.background .topbar .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -35,11 +44,11 @@
           justify-content: space-between;
 }
 
-.topbar .container .contact span {
+.background .topbar .container .contact span {
   margin-right: 20px;
 }
 
-.topbar .container .medias {
+.background .topbar .container .medias {
   width: 30%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -52,7 +61,7 @@
           justify-content: space-between;
 }
 
-.header {
+.background .header {
   margin-top: 30px;
   position: relative;
   z-index: 3;
@@ -67,7 +76,7 @@
           justify-content: center;
 }
 
-.header .container {
+.background .header .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -80,16 +89,16 @@
   color: white;
 }
 
-.header .container .logo {
+.background .header .container .logo {
   font-size: 40px;
   font-weight: 800;
 }
 
-.header .container .navbar {
+.background .header .container .navbar {
   width: 70%;
 }
 
-.header .container .navbar ul {
+.background .header .container .navbar ul {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -102,25 +111,300 @@
           justify-content: space-between;
 }
 
-.header .container .navbar ul li {
+.background .header .container .navbar ul li {
   font-weight: 600;
   font-size: 12px;
   list-style-type: none;
 }
 
-.header .container .navbar ul li a {
+.background .header .container .navbar ul li a {
   text-decoration: none;
   color: white;
 }
 
-.background {
-  background-image: url(../images/4.jpg);
+.background .select-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+}
+
+.background .select-area .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.background .select-area .container .text {
+  color: white;
+  width: 50%;
+}
+
+.background .select-area .container .text h1 {
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.background .select-area .container .text p {
+  font-size: 90px;
+  font-weight: 800;
+  line-height: 110px;
+}
+
+.background .select-area .container .form {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.background .select-area .container .form .big-box {
+  padding: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 425px;
+  height: 372px;
+  background-color: rebeccapurple;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 10px solid rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+}
+
+.background .select-area .container .form .big-box .check-in-out {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.background .select-area .container .form .big-box .check-in-out .check-in {
   width: 100%;
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  -webkit-transform: translateY(-136px);
-          transform: translateY(-136px);
+}
+
+.background .select-area .container .form .big-box .check-in-out .check-in label {
+  font-size: 13px;
+  color: #777;
+}
+
+.background .select-area .container .form .big-box .check-in-out .check-in input {
+  border: none;
+  outline: none;
+  width: 157px;
+  height: 40px;
+  border-radius: 4px;
+}
+
+.background .select-area .container .form .big-box .check-in-out .check-in select {
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  color: #b2b2b2;
+}
+
+.background .select-area .container .form .big-box .check-in-out .adult {
+  width: 157px;
+}
+
+.background .select-area .container .form .big-box .check-in-out .adult input {
+  padding-left: 10px;
+  width: 97px;
+  height: 42px;
+}
+
+.background .select-area .container .form .big-box .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 30px;
+}
+
+.background .select-area .container .form .big-box .btn button {
+  width: 170px;
+  height: 40px;
+  background-color: blue;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+  border: none;
+  outline: none;
+}
+
+#welcome {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#welcome .container .title {
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 50px;
+  font-size: 50px;
+  font-weight: 800;
+  border-bottom: 1px solid #b2b2b2;
+}
+
+#welcome .container .content {
+  text-align: center;
+  margin-top: 40px;
+  padding-bottom: 40px;
+  font-size: 1.25rem;
+  color: #777;
+  font-weight: 400;
+  border-bottom: 1px solid #b2b2b2;
+  margin-bottom: 50px;
+}
+
+#welcome .container .components {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#welcome .container .components .component {
+  width: 25%;
+}
+
+#welcome .container .components .component span {
+  font-size: 19px;
+  font-weight: 500;
+}
+
+#welcome .container .components .component .desc {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #777;
+  text-align: start;
+  margin-top: 20px;
+}
+
+#hotels {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#hotels .container .title {
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 50px;
+  font-size: 50px;
+  font-weight: 800;
+  border-bottom: 1px solid #b2b2b2;
+}
+
+#hotels .container .content {
+  text-align: center;
+  margin-top: 40px;
+  padding-bottom: 40px;
+  font-size: 1.25rem;
+  color: #777;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+#hotels .container .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 50px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#hotels .container .cards .card {
+  width: 23%;
+}
+
+#hotels .container .cards .card .img-area {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: white;
+  font-weight: 800;
+  width: 100%;
+  height: 190px;
+  background-image: url(../images/room1.jpg);
+  margin-bottom: 20px;
+}
+
+#hotels .container .cards .card .desc {
+  font-size: 14px;
+  color: #777;
+  border-bottom: 1px solid #b2b2b2;
+}
+
+#hotels .container .cards .card .price-zone {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#hotels .container .cards .card .price-zone .price span {
+  color: #777;
+}
+
+#hotels .container .cards .card .price-zone .btn button {
+  width: 75px;
+  height: 40px;
+  background-color: blue;
+  border-radius: 5px;
+  outline: none;
+  border: none;
 }
 /*# sourceMappingURL=style.css.map */
