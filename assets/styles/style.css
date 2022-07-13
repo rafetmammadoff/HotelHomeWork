@@ -15,6 +15,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .background .topbar {
@@ -61,7 +63,17 @@
           justify-content: space-between;
 }
 
+.background .rafet {
+  width: 100%;
+  position: fixed !important;
+  top: 0;
+  background-color: gray !important;
+  margin: 0 !important;
+}
+
 .background .header {
+  -webkit-transition: .5s;
+  transition: .5s;
   margin-top: 30px;
   position: relative;
   z-index: 3;
