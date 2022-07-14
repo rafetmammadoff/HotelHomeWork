@@ -24,3 +24,34 @@ function myFunction() {
         header.classList.remove("rafet")
     }
 }
+
+
+
+
+
+function changeTab(event,content) {
+    var contents=document.querySelectorAll("#events .tab-content");
+    for (let a = 0; a < contents.length; a++) {
+        contents[a].style.display="none"
+
+
+        
+    }
+
+    var links=document.querySelectorAll("#events .tablink");
+    for (let i = 0; i < links.length; i++) {
+        const element = links[i];
+        element.className= element.className.replace(" active", "")
+        
+    }
+
+    var ab=document.getElementById(content).style.display="block"
+    
+    event.currentTarget.className += " active";
+    
+
+    
+
+    
+}
+document.getElementById("active-tab").click()
